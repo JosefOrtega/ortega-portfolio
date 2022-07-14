@@ -1,0 +1,141 @@
+/*No need to CSS Reset since its default with bootstrap*/
+
+* {
+	font-family: 'Montseratt', sans-serif;
+}
+
+#home {
+	background-image: url(https://wallpaperaccess.com/full/486695.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.intro {
+	background-color: white;
+	border-radius: 5px;
+}
+
+#my-name, #mobile-name {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#my-name {
+	font-size: 1.5rem;
+}
+
+#home-name {
+	font-family: 'Lato', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#home-occupation {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#main-image {
+	position: relative;
+	animation-name: image;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes image {
+	from {right: -500px;}
+	to {right: 0px;}
+}
+
+#home-name, #home-occupation, .intro {
+	position: relative;
+	animation-name: introduction;
+	animation-duration: 2.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes introduction {
+	from {left: -500px;}
+	to {left: 0px;}
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.list-inline a:hover {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+i {
+	padding: 5px;
+}
+
+.bg-darkblue {
+	background-color: #001D40;
+}
+
+#about-me-title {
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 1rem;
+}
+
+
+#about-me > div > div > p {
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+
+.bg-gold {
+	background-color: #B49930;
+}
+
+#project1 {
+	font-family: 'Roboto Slab', serif;
+	color: whitesmoke;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#contact1 {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	padding-top: 2rem;
+}
+
+#location {
+	padding-bottom: 5px;
+}
+
+iframe {
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+
+form {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.my-contacts {
+	width: 100%;
+	font-size: 0.875rem;
+	text-align: left;
+}
